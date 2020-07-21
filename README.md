@@ -104,3 +104,9 @@ How to detect change between a brown bird and brown background?
 <https://www.tensorflow.org/lite/guide/get_started#2_convert_the_model_format>
 <https://www.tensorflow.org/lite/guide/python>
 <https://www.tensorflow.org/lite/models/image_classification/overview>
+
+# BirdCam Application
+
+## Purpose
+
+This application will allow a smartphone with Android OS to communicate with the Raspberry Pi BirdCam. The BirdCam will process the images and identify the bird species, and then relay this information to the user's smartphone. The user will be able to see what species of bird was identify and can organize and save these images to their smartphone.
