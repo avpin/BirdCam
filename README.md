@@ -10,7 +10,7 @@ The goal of this project is to implement a Smart BirdCam. The BirdCam should be 
 
 <s> <https://www.tensorflow.org/datasets/catalog/caltech_birds2011>  - First Candidate. </s>
 
-<https://tfhub.dev/google/lite-model/aiy/vision/classifier/birds_V1/2> - Birds V1.1 ;
+<https://tfhub.dev/google/lite-model/aiy/vision/classifier/birds_V1/2> - Birds V1.2 ;
 Tensorflow mobile bird classification model using the MobileNetV2 architecture  and the iNaturalist dataset.
 
 ## Hardware
@@ -49,6 +49,11 @@ Most of these should be available through Anaconda, so I would start my installi
 
 ## Tasks
 
+Code Maintenance
+
+* Try and object orient some of the code or make the different scripts into modules.
+* Create a main script.
+
 Streaming
 
 * Connect Pi and computer using ssh.
@@ -68,6 +73,7 @@ Machine Learning
   
 Organize Data
 
+* Script to take picture and save it to `PicturesIn`
 * Setup directory structure and automate where the pictures taken go to.
 * Seperate folder for each bird type
 
@@ -83,7 +89,7 @@ What should be done to prevent false positives when the sway of the bird feeder 
 
 Squirrels like to mess with the bird feeder alot also. Should Tensorflow train on squirrels as well?
 
-Changes in time of day could also casue false positives.
+Changes in time of day could also cause false positives. Find a way to fix this or perhaps just restart the script every hour or so?
 
 How to detect change between a brown bird and brown background?
 
